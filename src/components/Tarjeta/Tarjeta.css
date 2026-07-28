@@ -1,0 +1,35 @@
+.card, #t{
+  height: 15rem;
+  width: 230px;
+}
+.card{
+  outline: solid black;
+  margin: 1rem 1rem;
+  transition: .2s ease;
+}
+.card:hover{
+  scale: 1.03;
+  transition: .2s ease;
+}
+#t{
+  object-fit: cover;
+  border-bottom: solid black;
+}
+#title{
+  font-size: 1.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#price{
+  font-size: 1.4rem;
+}
+@media (max-width:350px){
+  .card,#t{
+    height: 10rem;
+    width: 200px;
+  }
+  .card-body{
+    width: 200px;
+  }
+}

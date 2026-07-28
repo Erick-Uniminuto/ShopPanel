@@ -1,0 +1,9 @@
+.btn{
+  border: none !important;
+  transition: .2s ease !important;
+}
+
+.btn:hover{
+  scale: 1.03;
+  transition: .2s ease !important;
+}

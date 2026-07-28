@@ -1,0 +1,18 @@
+#contorno{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: .2s ease;
+}
+
+#ic{
+  font-size: 1.8rem;
+  background-color: red;
+  border-radius: 999999px;
+}
+#contorno:hover{
+  transform: translateY(-3px);
+  transition: .2s ease;
+}

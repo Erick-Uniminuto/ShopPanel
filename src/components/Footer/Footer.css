@@ -1,0 +1,47 @@
+#footer{
+  background-color: #3E8EDE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+#row4{
+  width: 650px;
+}
+
+.fLink{
+  color: #1B1B1B;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.fLink:hover{
+  color: white;
+}
+.important{
+  font-size: 25.6px;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#SocialSpace{
+  width: 435px;
+}
+@media(max-width:650px){
+  #row4{
+    width: 100%;
+  }
+  #SocialSpace{
+    width: 100%;
+  }
+}
+
+#copy{
+  font-weight: bold;
+}

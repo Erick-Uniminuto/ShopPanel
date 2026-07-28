@@ -1,0 +1,12 @@
+.outside-card{
+  border: solid black;
+  width: 100%;
+  border-radius: .6rem;
+  text-align: start;
+  padding: .9rem .9rem;
+  transition: .2s ease;
+}
+.outside-card:hover{
+  scale: 1.02;
+  transition: .2s ease;
+}

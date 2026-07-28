@@ -1,0 +1,76 @@
+#user{
+  object-fit: cover;
+  height: 3rem;
+  border-radius: 9999999px;
+}
+#user:hover{
+  outline: white solid;
+}
+#sBar2{
+  display: none !important;
+}
+.navbar{
+  background-color: #3E8EDE;
+}
+#search{
+  border: none;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#car-icon{
+  font-size: 2rem;
+}
+#option{
+  color: #1B1B1B;
+  font-size: 1.2rem;
+}
+#option:hover{
+  color: white;
+}
+#car-icon:hover{
+  color: white;
+}
+.nav-item{
+  margin: 0rem .4rem;
+}
+.menu{
+  font-size: 3rem;
+  color: #1B1B1B;
+}
+#toggler{
+  border: none;
+}
+#b{
+  background-color: #1B1B1B;
+  border: none;
+}
+@media (max-width:768px){
+  #navbarNavAltMarkup{
+    color: red;
+  }
+}
+@media (max-width:559px){
+  #sBar{
+    display: none !important;
+  }
+  #sBar2{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #t1{
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width:769px){
+  #navbarNavAltMarkup{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+  }
+}

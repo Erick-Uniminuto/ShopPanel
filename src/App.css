@@ -1,0 +1,13 @@
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+.important{
+  font-family: 'Rubik Mono One', monospace;
+  font-size: 1.6rem;
+}
+
+.apoyo{
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

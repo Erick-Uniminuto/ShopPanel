@@ -1,0 +1,28 @@
+#upper{
+  width: 100%;
+}
+.thome{
+  color: #1B1B1B;
+}
+#load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#outside{
+  width: 100%;
+}
+#row3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (max-width:350px){
+  #outside{
+    width: 300px;
+  }
+}

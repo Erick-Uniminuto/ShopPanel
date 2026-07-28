@@ -1,0 +1,8 @@
+#cancelado{
+  color: #DC3545;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.lola{
+  filter: contrast(.5);
+}
